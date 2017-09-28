@@ -1,12 +1,13 @@
-package com.travelsmart.org;
+package com.travelsmart;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TravelSmartApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TravelSmartApplication.class, args);
+		SpringApplication.run(Application.class, args);
+		System.out.println("test");
 	}
 }
